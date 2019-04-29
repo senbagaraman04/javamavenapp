@@ -12,6 +12,15 @@
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
       <version>4.11</version>
+      
+      
+      
+      <!--Source option 5 is no longer supported. Use 7 or later: error fix" -->
+      <properties>
+    <maven.compiler.source>1.6</maven.compiler.source>
+    <maven.compiler.target>1.6</maven.compiler.target>
+  </properties>
+      
       <scope>test</scope>
     </dependency>
   </dependencies>
